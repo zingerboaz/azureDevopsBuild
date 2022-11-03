@@ -10,7 +10,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'webinar-acr-connection'
   imageRepository: 'webinar-web-app'
-  containerRegistry: 'webinaracr.azurecr.io'
+  containerRegistry: 'webnodejs.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   # Agent VM image name
