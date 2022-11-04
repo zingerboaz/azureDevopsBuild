@@ -8,8 +8,8 @@ trigger:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'webinar-acr-connection'
-  imageRepository: 'webinar-web-app'
+  dockerRegistryServiceConnection: 'ContainerRegistryconnection'
+  imageRepository: 'node-web-app'
   containerRegistry: 'webnodejs.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
